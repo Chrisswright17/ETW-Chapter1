@@ -48,4 +48,8 @@ print(ipAddress)
 print("R3 in ipAddress gives the output:")
 print("R3" in ipAddress)
 print(space)
+#Input Function#
+#The input() function provides a way to get information from the user#
+firstName = input("what is your firstname? ")
+print("Hello " + firstName +"!")
 
