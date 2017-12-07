@@ -52,4 +52,32 @@ print(space)
 #The input() function provides a way to get information from the user#
 firstName = input("what is your firstname? ")
 print("Hello " + firstName +"!")
+print(space)
+#If/Else Functions#
+nativeVLAN = 1
+dataVLAN = 100
+if nativeVLAN == dataVLAN:
+    print("The native VLAN and the data VLAN are the same.")
+#If the nativeVLAN is equal to dataVLAN print that native and data VLAN are equal. ELSE (if its not equal)#
+#print this native and data VLAN are different#
+else:
+    print("This native VLAN and the data VLAN are different.")
+print(space)
+VLAN1 = input("What is the value of VLAN1? ")
+VLAN2 = input("what is the value of VLAN2? ")
+if VLAN1 == VLAN2:
+    print("VLAN1 and VLAN2 are equal!")
+else:
+    print("VLAN1 and VLAN2 are not equal!")
+print(space)
+#If/Elif/Else Function#
+ExampleNumber = int(input("What is your number? "))
+if ExampleNumber >= 1 and ExampleNumber <=99:
+    print("This number is between 1 and 99")
+elif ExampleNumber >=100 and ExampleNumber <=199:
+    print("This number is between numbers 100 and 199")
+else:
+    print("This number is neither between numbers 1 and 99 or 100 and 199.")
+
+
 
