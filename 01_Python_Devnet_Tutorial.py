@@ -81,6 +81,17 @@ elif ExampleNumber >=100 and ExampleNumber <=199:
     print("This number is between numbers 100 and 199")
 else:
     print("This number is neither between numbers 1 and 99 or 100 and 199.")
-
-
-
+print(space)
+#Operations#
+#Python is able to do several math operations#
+#Addition
+print("2 + 5 = " + str(2 + 5))
+#Subtraction#
+print("2 - 5 = " + str(2 - 5))
+#Multiplication#
+print("2 * 5 = " + str(2 * 5))
+#Division#
+print("6 / 3 = " + str(6 / 3))
+#Modulo#
+#Modulo returns the remainder from the division of two numbers#
+print("3 % 2 = " + str(3 % 2))
