@@ -71,6 +71,9 @@ else:
     print("VLAN1 and VLAN2 are not equal!")
 print(space)
 #If/Elif/Else Function#
+#What the Elif function does is first does a normal IF function then if that IF function is not met it goes onto a second if statement#
+#If the second IF statement is met then it goes on like a normal IF function#
+#If neither of the IF statements are met then it procceeds to go the the Else statement and proceed as a normal if/else function#
 ExampleNumber = int(input("What is your number? "))
 if ExampleNumber >= 1 and ExampleNumber <=99:
     print("This number is between 1 and 99")
